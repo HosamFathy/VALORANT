@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
+*{
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #111111ff;
+    color:#961f21ff;
+    padding: 0px 100px;
+    border-top: solid #6c1827ff 4px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    transition:ease 1s;
+}
+header a:hover{
+    color: #961f21ff;
+    font-size: 22px;
+}
+.carsour{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-size:cover ;
+    background-image: url(img/utps0v323r751.jpg);
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+    background-position: center;
+}
+.carsour div{
+    margin-left: 80px;
+}
+.carsour span{
+    color: #961f21ff;
+}
+.carsour h2{
+    color: white;
+}
+.carsour a{
+    color: white;
+    text-decoration: none;
+    background-color:#961f21ff;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    transition: ease 1s;
+}
+.carsour a:hover{
+    transform:scale(1.1) ;
+    background-color: #6c1827ff;
+}
+.services h1{
+    text-align: center;
+    margin: 30px 0px;
+}
+.services .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    padding: 0px 80px;
+}
+.services .card{
+margin-right: 20px;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+padding: 10px;
+width: 16em;
+margin-bottom: 40px;
+text-align: center;
+}
+.card h3{
+    color: #961f21ff;
+}
+.card p{
+    font-size: 15px;
+}
+.services .card > div{
+color: #961f21ff;
+font-size: 50px;
+}
+.Agents{
+    background-color: #111111ff;
+    text-align: center;
+    padding: 30px 100px;
+}
+.Agents h1{
+    color:#961f21ff;
+    margin-bottom: 20px;
+}
+.Agents .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Agents .card{
+    background-color: #111111ff;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    width: 16em;
+    margin-bottom: 30px;
+    min-height: 200px;
+    color: white;
+    transition: ease all 1s;
+}
+.Agents .card :hover{
+    transform:scale(1.1)
+}
+
+.Agents .card-desc{
+    margin: 0px 10px;
+    text-align: center;
+    text-justify: inter-ideograph;
+}
+
+.notilla{
+    padding:50px 100px;
+    display: flex;
+    align-items: center;
+}
+.notilla p{
+    font-size: 17px;
+}
+.notilla h2{
+    color: #961f21ff;
+    border-bottom:solid #961f21ff;
+    display: inline-block;
+}
+.notilla-desc{
+    width: 60%;
+    text-align: center;
+    margin-left: 70px;
+}
+.notilla-img{
+    margin-right: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.notilla-img-rtl{
+    margin-left: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.notilla-desc-rtl{
+    width: 60%;
+    text-align: center;
+    margin-left: 100px;
+}
+.contact{
+    padding: 250px;
+    background: rgb(0,0,3);
+    background: linear-gradient(103deg, rgba(0,0,3,1) 0%, rgba(71,5,44,1) 100%);
+    text-align: center;
+}
+.contact h2{
+    color: white;
+    margin-bottom: 50px;
+    border-bottom:solid ;
+    display: inline-block;
+}
+.input-form{
+margin-bottom: 20px;
+position: relative;
+width: 100%;
+overflow: hidden;
+}
+.input-form label{
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    transition: all .5s;
+    pointer-events: none;
+}
+.send{
+    padding:5px 30px;
+    background-color: #961f21ff;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: all.5s;
+}
+.send:hover{
+    transform: scale(1.1);
+    background-color: #6c1827ff;
+}
+.input-form input{
+border: none;
+border-bottom: solid #6c1827ff;
+outline: none;
+padding:0px 5px;
+width: 100%;
+height: 40px;
+}
+.input-form input:hover~label,.input-form input:valid~label{
+top: 14%;
+transform:translateY(-120%) ;
+}
+footer{
+    text-align: center;
+    background-color: #111111ff;
+    color: white;
+    padding: 25px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+}
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #961f21ff; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#6c1827ff; 
+  }
+  .up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #961f21ff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #111111ff;
+  }
+  .up:hover{
+    background-color: #6c1827ff;
+  }
